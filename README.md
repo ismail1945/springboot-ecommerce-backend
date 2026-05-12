@@ -1,88 +1,44 @@
-# Scalable E-Commerce Backend System Using Spring Boot
+# 🛒 Spring Boot E-Commerce Backend
 
-A production-style e-commerce backend application built using Spring Boot, MySQL, JWT Authentication, Redis caching, and Docker.
-
-This project provides secure REST APIs for user authentication, product management, cart operations, and order processing with scalable backend architecture and optimized database interactions.
+A powerful RESTful E-Commerce Backend Application built using **Spring Boot**.
 
 ---
 
-# Features
+## 🚀 Features
 
-- User Registration & Login
-- JWT Authentication & Authorization
-- Product Management APIs
-- Cart Management System
-- Order Processing
-- Redis Caching
-- Swagger API Documentation
-- Docker Containerization
-- RESTful API Architecture
-
----
-
-# Tech Stack
-
-- Java 17
-- Spring Boot
-- Spring Security
-- MySQL
-- Redis
-- JWT
-- Docker
-- Maven
-- Swagger OpenAPI
+✅ User Authentication & Authorization  
+✅ Product Management  
+✅ Add / Update / Delete Products  
+✅ REST APIs using Spring Boot  
+✅ Spring Security Integration  
+✅ MySQL / H2 Database Support  
+✅ Layered Architecture  
+✅ Maven Project Structure  
 
 ---
 
-# Project Structure
+## 🛠️ Tech Stack
 
-```text
-src/
- ├── controller/
- ├── service/
- ├── repository/
- ├── entity/
- ├── security/
- ├── config/
- └── exception/
-```
+| Technology | Usage |
+|------------|-------|
+| ☕ Java 17 | Backend Language |
+| 🌱 Spring Boot | Backend Framework |
+| 🔐 Spring Security | Authentication |
+| 🗄️ Spring Data JPA | Database Operations |
+| 🐬 MySQL | Database |
+| 💾 H2 Database | Testing |
+| 📮 Postman | API Testing |
+| 🔧 Maven | Build Tool |
 
 ---
 
-# Run Project
-
-## Run MySQL & Redis
+# 📂 Project Structure
 
 ```bash
-docker-compose up
-```
-
-## Run Spring Boot Application
-
-```bash
-mvn spring-boot:run
-```
-
----
-
-# Swagger Documentation
-
-```text
-http://localhost:8080/swagger-ui.html
-```
-
----
-
-# Future Enhancements
-
-- Payment Gateway Integration
-- Kafka Event Streaming
-- AWS Deployment
-- Elasticsearch Product Search
-- Microservices Architecture
-
----
-
-# Author
-
-Ismail Khan
+src
+ ┣ 📂 controller
+ ┣ 📂 service
+ ┣ 📂 repository
+ ┣ 📂 entity
+ ┣ 📂 config
+ ┗ 📜 EcommerceApplication.java
