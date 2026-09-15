@@ -40,5 +40,26 @@ src
  ┣ 📂 service
  ┣ 📂 repository
  ┣ 📂 entity
+ ┣ 📂 dto
+ ┣ 📂 exception
  ┣ 📂 config
  ┗ 📜 EcommerceApplication.java
+
+## 📡 Product API (DTO-based)
+
+- `POST /api/products`
+  - Request body:
+    ```json
+    {
+      "name": "Laptop",
+      "description": "Gaming laptop",
+      "price": 1200.0,
+      "quantity": 5
+    }
+    ```
+  - Validation:
+    - `name` required
+    - `price` required and `> 0`
+    - `quantity` required and `>= 0`
+- `GET /api/products` returns product response DTO list
+- `GET /api/products/{id}` returns one product response DTO
